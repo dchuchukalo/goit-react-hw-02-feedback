@@ -1,0 +1,23 @@
+.feedbackBtn {
+  background-color: #fff;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+.feedbackBtn:focus,
+.feedbackBtn:hover {
+  outline: none;
+}
+
+.feedbackBtn:active {
+  background-color: rgb(0, 149, 255);
+}
+
+.feedbackBtn::first-letter {
+  text-transform: uppercase;
+}
+
+.feedbackBtn:not(:last-child) {
+  margin-right: 20px;
+}

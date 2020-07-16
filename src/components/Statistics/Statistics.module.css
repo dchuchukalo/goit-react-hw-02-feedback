@@ -1,0 +1,7 @@
+.statItem::first-letter {
+  text-transform: uppercase;
+}
+
+.statItem:not(:last-child) {
+  margin-bottom: 10px;
+}
