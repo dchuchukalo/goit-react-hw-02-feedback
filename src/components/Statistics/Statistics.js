@@ -15,23 +15,6 @@ const Statistics = props => (
   </>
 );
 
-// class Statistics extends Component {
-//   render() {
-//     return (
-//       <>
-//         {Object.keys(this.props).map(option => {
-//           return (
-//             <p key={option}>
-//               {option === 'positivePercentage' ? 'positive feedback' : option}:{' '}
-//               {this.props[option]}
-//             </p>
-//           );
-//         })}
-//       </>
-//     );
-//   }
-// }
-
 Statistics.propTypes = {
   good: PropTypes.number.isRequired,
   neutral: PropTypes.number.isRequired,
